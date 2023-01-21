@@ -1,0 +1,35 @@
+ html{
+    box-sizing: border-box;
+ }
+ *,
+ *::before,
+ *::after{
+    box-sizing: inherit;
+ }
+ body{
+    margin: 0;
+ }
+
+ .header{
+    background-color: rgb(212, 192, 212);
+ }
+ .header .logo{
+    width: 90px; 
+    /* margin-left: 20px; */
+   vertical-align: middle;
+    margin-right: 100px;
+    margin-left: 40px;
+ } 
+ .header .nav{
+    display: inline-block;
+    vertical-align: middle;
+ }
+ .header .nav .links{
+     list-style: none;
+    
+ }
+ .header .nav .links .link-item{
+    display: inline-block;
+    margin: 20px;
+
+ }
