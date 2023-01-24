@@ -1,0 +1,27 @@
+html{
+    text-align: center;
+    margin: 100px;
+}
+ul{display: inline-block;
+    list-style-type: none;
+    /* border: 1px solid black; */
+    width: 1020px;
+    padding: 0;
+}
+ul li{
+    display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+    
+}
+
+img{display: inline-block;
+    max-height: 475px;
+    border: 4px solid black;
+
+    padding: 10px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    /* vertical-align: middle; */
+}
+
