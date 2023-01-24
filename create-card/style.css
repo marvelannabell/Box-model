@@ -1,19 +1,22 @@
-
- html{
+html {
     box-sizing: border-box;
- }
- *,
- *::before,
- *::after{
-    box-sizing: inherit;
- }
-body{
-    background-color: rgb(149, 146, 146);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
-img{
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(149, 146, 146);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
     width: 100%;
 }
+
 .card {
     max-width: 300px;
     background-color: white;
@@ -22,43 +25,49 @@ img{
 
 }
 
-.card .body{
-padding: 21px;    
+.card .body {
+    padding: 21px;
 }
 
-.card .body .body__tag{
-    
+.card .body .body__tag {
+
     background-color: rgb(51, 51, 107);
     color: white;
     padding: 5px 16px;
     border-radius: 5px;
     margin-bottom: 12px;
 }
-.card .body .body__title{
- font-size: 21px;
- line-height: 1.2;
- margin-top: 21;
- margin-bottom: 21;   
+
+.card .body .body__title {
+    font-size: 21px;
+    line-height: 1.2;
+    margin-top: 21;
+    margin-bottom: 21;
 }
-.card .body .body__desc{
-color: rgb(56, 55, 55);
-margin-bottom: 42px;
+
+.card .body .body__desc {
+    color: rgb(56, 55, 55);
+    margin-bottom: 42px;
 }
-.card .body .body__img{
+
+.card .body .body__img {
     width: 50px;
-    border-radius:100%;
+    height: 50px;
+    border-radius: 100%;
     margin-right: 12px;
     vertical-align: top;
 }
-.card .body .release{
+
+.card .body .release {
     display: inline-block;
 }
+
 .card .body .release .release__name,
-.card .body .release .release__date
-{
+.card .body .release .release__date {
     margin: 0px;
 }
-.card .body .release .release__name{
+
+.card .body .release .release__name {
     font-weight: bold;
-    
+
 }
