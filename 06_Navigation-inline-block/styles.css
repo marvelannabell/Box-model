@@ -1,0 +1,45 @@
+body {
+    margin: 80px;
+    font-family: "Helvetica",sans-serif;
+}
+
+header{
+    padding-top: 20px;
+    border-bottom:2px solid black ;
+}
+
+h1,
+nav {
+    display: inline-block;
+    /* padding: 12px; */
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(49, 161, 124);
+}
+
+h1 {
+    margin-right: 60px;
+    font-size: 50px;
+}
+
+section h1 {
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: Georgia,serif;
+
+
+}
+p {
+    /* margin: 30px 0px; */
+    padding: 10px 0px;
+    font-size: 16px;
+}
