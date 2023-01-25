@@ -1,0 +1,40 @@
+html{
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica,sans-serif;
+    padding: 50px;
+}
+header .section1{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+header .section2{
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+}
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+header section{
+    margin-bottom: 50px;
+}
+header section ul li{
+color:blue
+}
+body section{
+    width: 40%;
+}
+img{
+    margin: 20px 0px;
+    width: 70%;
+}
+footer p{
+    margin-top: 30px;
+}
